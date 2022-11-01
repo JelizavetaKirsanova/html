@@ -1,0 +1,26 @@
+body{
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    background: linear-gradient(45deg, #affff0, #cadbff);
+    border: 2px solid rgb(48, 48, 48);
+}
+
+th, td{
+    border: 1.5px solid rgb(48, 48, 48);
+}
+ 
+
+a{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h1{
+    color: rgb(252, 106, 106);
+}
+
+
+
