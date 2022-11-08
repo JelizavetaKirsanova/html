@@ -22,5 +22,10 @@ h2, h1{
     color: rgb(252, 106, 106);
 }
 
+pre{
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 
