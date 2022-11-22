@@ -1,58 +1,102 @@
 body{
-    display: flex;
-    justify-content: center;
-    line-height: 1.5;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Manrope';
+}
+
+header{
+    background: #009999;
+    font-family: 'Manrope';
+    font-style: normal;
+    color: #FF7400;
+    font-size: 15px;
+}
+
+p{
+    width: 90%;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 main{
-    max-width: 1000px;
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    margin: 5%
 }
+h3{
+    font-weight: 600;
+    color: #FF7400;
+    font-size: xx-large
+    
+}
+
+h4{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+h2{
+    font-weight: bold;
+    color: #FF7400;
+    font-size: xx-large;
+}
+.logo{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+td{
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #006363;
+
+}
+
 
 table{
-    background: linear-gradient(45deg, #affff0, #cadbff);
-    border: 2px solid rgb(48, 48, 48);
+    border: 2px solid #006363;
 }
 
-th, td{
-    border: 1.5px solid rgb(48, 48, 48);
-}
- 
 
-a{
-    color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+th{
+    border: 2px solid #006363;
+    background: #5CCCCC;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
 
-h2, h1{
-    color: rgb(252, 106, 106);
 }
 
-pre{
-    max-width: 90vw;
-    overflow-x: scroll;
-    line-height: 1.5;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.first{
+nav{    
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-direction: column;
 }
 
-article{
+a{
+    color: black;
+    font-size: 15px;
+
+}
+
+.utv{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.navigation{
+.words{
+    display: flex;
+    flex-direction: ;
+}
+
+.present_simple{
+    width: 90%;
+
+}
+pre{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
