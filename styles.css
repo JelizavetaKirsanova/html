@@ -122,14 +122,19 @@ a{
 }
 
 .words{
+    height: fit-content;
+    padding: 5px;
+    border: 1px #FF7400 solid;
     display: flex;
     flex-direction: column;
 }
 
-.present_simple{
-    width: 90%;
-
+.words h4{
+    text-align: center;
+    margin: 0;
 }
+
+
 pre{
     display: flex;
     flex-direction: column;
