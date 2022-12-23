@@ -18,6 +18,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .utv{
+        width: auto !important;
+    }
    header{
     max-width: 100%;
    }
@@ -47,6 +50,43 @@
     }
 }
 
+@keyframes ball {
+    from{
+        position: fixed;
+        left: -50px;
+        top: 0px
+    }
+    25%{
+        position: fixed;
+        left: 50px;
+        top: 25px
+    }
+    50%{
+        position: fixed;
+        left: 100px;
+        top: 5px
+    }
+    75%{
+        position: fixed;
+        left: 150px;
+        top: 25px
+    }
+    to{
+        position: inherit;
+        top: 10px;
+
+}
+}
+
+@keyframes EnglishLogo {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
 
 body {
     font-family: 'Manrope', sans-serif;
@@ -55,6 +95,7 @@ body {
 }
 
 header{
+        height: 70px;
     background: #009999;
     font-family: 'Manrope';
     font-style: normal;
@@ -66,6 +107,7 @@ header{
     color: white;
     font-size: 25px;
     font-weight: 800;
+    animation: EnglishLogo 3s;
 }
 
 p{
@@ -109,6 +151,9 @@ h2{
     display: flex;
     margin-left: 5%;
     align-items: center;
+}
+.logo img{
+    animation: ball 2s linear;
 }
 
 #en{
