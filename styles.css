@@ -50,6 +50,27 @@
     }
 }
 
+@keyframes text{
+    from{
+        line-height: 5px;
+    }
+
+    25%{
+        line-height: 4px;
+    }
+    50%{
+        line-height: 3px;
+    }
+    75%{
+        line-height: 2px;
+    }
+
+    to{
+        line-height: 1px;
+    }
+
+}
+
 @keyframes ball {
     from{
         position: fixed;
@@ -173,6 +194,7 @@ td{
 tr *{
     border: 1px solid #006363;
     padding: 20px;
+    animation: text 2s linear;
 }
 
 
